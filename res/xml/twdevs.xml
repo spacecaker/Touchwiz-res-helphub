@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="ChangeLog" android:summary="Press here to visit the Changelog." android:key="twchangelog" />
+    <Preference android:title="Thread on XDA" android:summary="Visit the XDA ROM Thread." android:key="twthread" />
+    <Preference android:title="UseFull stuff" android:summary="Click here to visit some of the usefull stuff" android:key="usefull" />
+    <PreferenceScreen android:title="Credits" android:summary="People behind the success of this ROM">
+        <intent android:targetPackage="com.touchwiz.Resurection" android:action="android.intent.action.MAIN" android:targetClass="com.touchwiz.Resurection.TwCreditas" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="Faq" android:summary="People behind the success of this ROM">
+        <intent android:targetPackage="com.touchwiz.Resurection" android:action="android.intent.action.MAIN" android:targetClass="com.touchwiz.Resurection.TwFaq" />
+    </PreferenceScreen>    
+</PreferenceScreen>

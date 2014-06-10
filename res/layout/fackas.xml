@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content" >
+
+	<include android:layout_width="fill_parent"
+	    android:layout_height="50.0dip"
+	    layout="@layout/faqtitle" />
+	    
+	<ScrollView android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="ifContentScrolls">	
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp" >
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#112631"
+                android:text="There are some black on blue text bugs on some 3rd party apps. How to fix them?"
+                android:id="@+id/textView" android:layout_gravity="center" android:textSize="17dp"                />
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" android:layout_marginTop="10dp">
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff7d9096"
+                    android:text="Currently the only way to fix them is to edit the 3rd party apps. But I will fix them on the future."
+                    android:layout_gravity="center"/>
+		</LinearLayout> 
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#112631"
+                android:text="Why Auto Brightness button isn't working?"
+                android:id="@+id/textView" android:layout_gravity="center" android:textSize="17dp"                />
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" android:layout_marginTop="10dp">
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff7d9096"
+                    android:text="It isn't working because Ace doesn't have an ambient light sensor. The button is for decoration and it looks very good though."
+                    android:layout_gravity="center"/>
+		</LinearLayout> 
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#112631"
+                android:text="How to turn off the vibration of soft keys?"
+                android:id="@+id/textView" android:layout_gravity="center" android:textSize="17dp"                />
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" android:layout_marginTop="10dp">
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Go to Settings, ROM settings, Advanced Settings and Uncheck Haptic feedback."
+                    android:layout_gravity="center"/>
+		</LinearLayout> 
+	</LinearLayout>		        				        		        
+	</ScrollView>
+</LinearLayout>
